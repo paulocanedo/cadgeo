@@ -1,0 +1,97 @@
+rect  legenda  BY_LAYER  CONTINUOUS     0     0   841   594     #borda de fora
+rectc legenda  BY_LAYER  CONTINUOUS    25    10   831   584     #margem interna
+rect  legenda  BY_LAYER  CONTINUOUS   666    10   165    80     #espaco reservado
+rect  legenda  BY_LAYER  CONTINUOUS   666    95    82.5  75     #quadro de areas e perimetros
+rect  legenda  BY_LAYER  CONTINUOUS   753.5  95    77.5  75     #quadro de assinaturas
+rect  legenda  BY_LAYER  CONTINUOUS   666   175   165    80     #info
+rect  legenda  BY_LAYER  CONTINUOUS   666   260   120    30     #planta do imovel
+rect  legenda  BY_LAYER  CONTINUOUS   791   260    40    30     #folha n
+rect  legenda  BY_LAYER  CONTINUOUS   666   300   165   120     #planta de situacao
+rect  legenda  BY_LAYER  CONTINUOUS   666   425    80    70     #convencoes
+rect  legenda  BY_LAYER  CONTINUOUS   746   425    85    70     #info de coordenadas
+rectc legenda  BY_LAYER  CONTINUOUS   666   500   831   579     #logo empresa
+line  legenda  BY_LAYER  CONTINUOUS   661    10   661   584     #linha de separacao: desenho-legenda
+
+text  legenda  BY_LAYER  CONTINUOUS   668   167   "Quadro de áreas e perímetro" 2  0
+text  legenda  BY_LAYER  CONTINUOUS   672   106   "Área total:" 2  0
+text  legenda  WHITE     CONTINUOUS   710   106   "$AREA" 2  0
+text  legenda  BY_LAYER  CONTINUOUS   672   103   "Perímetro total:" 2  0
+text  legenda  WHITE     CONTINUOUS   710   103   "$PERIMETRO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   755   167   "Quadro de assinaturas" 2  0
+text  legenda  BY_LAYER  CONTINUOUS   755   142   "PROP.:" 2  0
+line  legenda  BY_LAYER  CONTINUOUS   768   142   820  142
+text  legenda  WHITE     CONTINUOUS   770   138   "$PROPRIETARIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   755   112   "R.T.:" 2  0
+line  legenda  BY_LAYER  CONTINUOUS   768   112   820  112
+text  legenda  WHITE     CONTINUOUS   770   109   "$RT_NOME" 2  0
+text  legenda  WHITE     CONTINUOUS   770   106   "$RT_PROFISSAO" 2  0
+text  legenda  WHITE     CONTINUOUS   770   103   "$RT_CREA - INCRA: $RT_CODIGO_INCRA" 2  0
+text  legenda  WHITE     CONTINUOUS   770   100   "ART No: $ART_NUMERO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   685   490   "Convenções" 2.5  0
+text  legenda  WHITE     CONTINUOUS   680   480   "VÉRTICES TIPO M" 2  0
+text  legenda  WHITE     CONTINUOUS   680   475   "VÉRTICES TIPO V" 2  0
+text  legenda  WHITE     CONTINUOUS   680   470   "VÉRTICES TIPO P" 2  0
+text  legenda  WHITE     CONTINUOUS   680   465   "VÉRTICES TIPO O" 2  0
+text  legenda  WHITE     CONTINUOUS   680   460   "RIO" 2  0
+
+line  legenda  BY_LAYER  CONTINUOUS   754   478   762    438
+line  legenda  BY_LAYER  CONTINUOUS   754   478   753.5  474
+line  legenda  BY_LAYER  CONTINUOUS   754   478   756    474.5
+
+line  legenda  BY_LAYER  CONTINUOUS   762   478   762  438
+line  legenda  BY_LAYER  CONTINUOUS   762   478   761  474
+line  legenda  BY_LAYER  CONTINUOUS   762   478   763  474
+
+arc   legenda  BY_LAYER  CONTINUOUS   759   467   3    0    166
+line  legenda  BY_LAYER  CONTINUOUS   768   457   795  457
+line  legenda  BY_LAYER  CONTINUOUS   768   457   759  470
+text  legenda  BY_LAYER  CONTINUOUS   752   480   "NG" 2  0
+text  legenda  BY_LAYER  CONTINUOUS   760   480   "NQ" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   760   490   "Informações de coordenadas" 2.5  0
+text  legenda  BY_LAYER  CONTINUOUS   768   480   "Projeção Universal Transversa" 2  0
+text  legenda  BY_LAYER  CONTINUOUS   768   476   "de Mercator - UTM" 2  0
+text  legenda  WHITE     CONTINUOUS   768   472   "SGR - $SIS_GEODESICO" 2  0
+text  legenda  WHITE     CONTINUOUS   768   468   "MC: $MERIDIANO_CENTRAL" 2  0
+text  legenda  WHITE     CONTINUOUS   768   458   "CM: $REF_CONV_MERIDIANA" 2  0
+text  legenda  WHITE     CONTINUOUS   768   454   "K: $REF_FATOR_ESCALA" 2  0
+text  legenda  WHITE     CONTINUOUS   768   444   "VÉRTICE: $REF_PONTO" 2  0
+text  legenda  WHITE     CONTINUOUS   768   440   "Lat. : $REF_PONTO_LAT" 2  0
+text  legenda  WHITE     CONTINUOUS   768   436   "Long.: $REF_PONTO_LONG" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   275   "Planta do Imóvel Georreferenciado" 3.5  0
+text  legenda  BY_LAYER  CONTINUOUS   793   283   "Folha:" 3  0
+text  legenda  BY_LAYER  CONTINUOUS   800   275   "Única" 3.5  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   250   "PROPRIEDADE:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   250   "$PROPRIEDADE" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   245   "PROPRIETÁRIO:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   245   "$PROPRIETARIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   240   "MUNICÍPIO:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   240   "$MUNICIPIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   235   "COMARCA:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   235   "$COMARCA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   770   235   "ESTADO UF:" 2  0
+text  legenda  WHITE     CONTINUOUS   790   235   "$UNIDADE_FEDERATIVA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   230   "CARTÓRIO:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   230   "CARTORIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   225   "MAT. TRANSC.:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   225   "MATRICULA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   220   "CÓDIGO INCRA:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   220   "CODIGO INCRA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   215   "DATA:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   215   "$DATA_ATUAL" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   668   210   "ESCALA:" 2  0
+text  legenda  WHITE     CONTINUOUS   700   210   "$ESCALA" 2  0

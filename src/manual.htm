@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>GeoMapa - Manual do usuário</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Pré-requisitos</h2>
+        <p>Para o funcionamento correto do aplicativo é necessário ter instalado a máquina virtual Java versão 6 ou superior no seu computador. Se você ainda não a possui instalada ou não sabe
+            visite o site: http://www.java.com (clique em Download gratuito ou Tenho o Java?)</p>
+        <p>A instalação consome menos de 15MB de memória em disco</p>
+        <p>É recomendável 1GB de memória RAM para Windows XP e 2GB de memória RAM para Windows Vista ou Windows 7</p>
+
+        <h2>Instalação</h2>
+        <p>Baixe o arquivo executável e abra normalmente no Windows (é necessário permissão de Administrador para a instalação), leia os termos e condições de uso, caso aceite, clique em concordo
+            e siga em frente até a conclusão completa da instalação.</p>
+
+        <h2>Primeira execução</h2>
+        <p>A primeira execução do aplicativo será necessário ativar o mesmo.</p>
+        <p>Após o registro do aplicativo você deve primeiramente configurar suas preferências, tal como em qual pasta gostaria de gravar seus arquivos gerados durante trabalho.
+            Para isso vá até o menu no canto superior esquerdo e clique em preferências.</p>
+        <ul>
+            <li>Diretório de gravação dos arquivos de trabalho: chamado de diretório base pelo aplicativo, serve para indicar o local onde deseja guardar os arquivos de trabalho, inicialmente esse diretório
+                é definido dentro da sua pasta de Documentos em uma subpasta chamada geomapa, caso queira alterar, selecione a aba Geral em Preferências e em seguida clique em Procurar e defina um novo local.</li>
+            <li>Responsáveis Técnicos: Em alguns relatórios é inserido informações sobre o responsável técnico da obra, como por exemplo o memorial. Vá até o menu Preferências, em seguida na aba Responsável 
+                Técnico, clique em Cadastrar novo Responsável Técnico, informe nome completo, códigos do INCRA e CREA respectivamente então finalmente confirme o cadastro.</li>
+        </ul>
+
+        <h2>Criando um projeto</h2>
+        <p>Sempre que abrir o aplicativo um projeto vazio será aberto automaticamente, note que o projeto vazio não está armezanado em disco. Para começar um novo projeto do zero, vá até o menu e clique 
+            em Novo Projeto.</p>
+        <p>É recomendável que, imediatamente após criar o projeto, preencha as informações do mesmo, para isso vá até o menu lateral esquerdo e clique em Dados (localizado abaixo de Gerenciamento 
+            do Projeto)</p>
+
+        <h2>Importando pontos</h2>
+        <p>Após preencher as informações básicas do projeto, é preciso alimentar o banco de dados de pontos (marcos, vértices, etc.), é possível fazê-lo de duas maneiras:</p>
+        <ul>
+            <li>
+                <p>Importar de um arquivo: o GeoMapa oferece a capacidade de importar pontos de diversos aplicativos de processamento de GPS (vide lista de compatibilidade de importação), vá até o menu 
+                    GeoMapa, submenu importação e escolha a opção que melhor se adequar ao caso.</p>
+                <ul>
+                    <li>Importar do Leica Geo Office: No aplicativo LGO, quando estiver na tela de resultado do processamento dos pontos, clique com o botão direito em cima do cabeçalho da tabela de resultados, 
+                        escolha a opção de personalizar e defina as colunas na ordem mostrada abaixo (se a ordem não for obedecida não será possível a importação pelo GeoMapa), confirme a janela de personalização 
+                        de colunas, clique com o botão direito em cima de qualquer valor da tabela de resultados do processamento e clique em exportar para CSV, importe esse arquivo pelo GeoMapa.</li>
+                    <li>Nome</li>
+                    <li>Este</li>
+                    <li>Qualidade Este</li>
+                    <li>Norte</li>
+                    <li>Qualidade Norte</li>
+                    <li>Altitude</li>
+                    <li>Qualidade Altitude</li>
+                </ul>
+            </li>
+            <li>Manualmente</li>
+        </ul>
+
+
+        <h2>Importando arquivos RINEX</h2>
+        Vá até o menu GeoMapa, submenu Importar, Importar RINEX. Selecione o(s) arquivo(s) de observação RINEX e confirme a importação. O aplicativo GeoMapa irá quebrar automaticamente em diversos 
+        arquivos caso exista mais de um ponto em um único arquivo.
+
+        <h3>Editar arquivos RINEX</h3>
+        <p>Em alguns sistemas de GPS não é possível exportar o arquivo RINEX com um nome desejado. Utilize a opção Gerenciar Rinex no menu lateral esquerdo para renomear os pontos Rinex da forma 
+            como desejar. É importante o nome dos arquivos Rinex estarem corretos para a geração da planilha de dados cartográficos do INCRA. Se os arquivos Rinex estiverem corretos, a planilha 
+            de dados cartográficos será gerada com o nome dos arquivos Rinex.</p>
+
+        <h2>Criando parcelas</h2>
+        <p>Para criar uma nova parcela vá até o botão com ícone + localizado no canto inferior direito do aplicativo GeoMapa, escolha uma das duas primeiras opções como explicado abaixo:</p>
+        <p>Criar nova Parcela: cria uma nova parcela e solicita um nome para a mesma, todas as informações de limites deverão ser preenchidas manualmente. (opção não disponível no momento)</p>
+        <p>A partir de um cálculo de área: utiliza um relatório de cálculo de área já existente para criar a nova parcela, aproveitando os limites já definidos no cálculo de área.</p>
+
+        <h2>Preenchendo informações extras dos pontos</h2>
+        <p>Algumas informações adicionais de cada ponto são necessárias para a elaboração de resultados cartográficos. Para preencher estas informações vá até o menu lateral esquerdo e clique em 
+            Gerenciar pontos, escolha qualquer ponto na lista que aparece e em seguida clique no botão Modo Edição. Prencha as informações faltantes do ponto (como por exemplo método de levantamento). 
+            Para uma fácil navegação entre os pontos no modo edição é possível avançar e retroceder apertando as combinações de tecla ALT+SETA_DIREITA e ALT+SETA_ESQUERDA respectivamente ou ainda 
+            pelos botões de navegação presente logo acima do formulário de edição.</p>
+
+        <h2>Preenchendo os confrontantes</h2>
+        <p>Essa etapa tem como pré-requisito a definição do perímetro da parcela realizada pelo mapa (não é necessário quando a parcela é criada a partir de um cálculo de área). Com o perímetro da 
+            parcela definido vá até o menu lateral esquerdo escolha a opção Limites e Confrontantes que corresponda à parcela desejada. Observe que, para cada parcela existe um menu de Limites e 
+            Confrontantes, portanto é importante tomar o devido cuidado para não preencher informações de limites e confrontantes de uma parcela indevida.</p>
+
+        <h2>Exportar</h2>
+        <p>Após efetuar todas as etapas mencionadas anteriormente, vá até o menu GeoMapa e clique em exportar tudo, caso tudo ocorra bem, o aplicativo irá exibir uma mensagem de sucesso e perguntar 
+            se deseja visualizar o diretório de saída da exportação, clique em sim para abri-lo no windows explorer e acessar os documentos gerados automaticamente.</p>
+        <p>É <strong>importante</strong> notar que esse diretório é constantemente atualizado e <strong>sempre irá sobreescrever</strong> qualquer arquivo que esteja nesse diretório (ou qualquer subdiretório), portanto 
+            se for necessário editar qualquer arquivo, faça uma cópia do arquivo desejado para um diretório de sua preferência que fique fora do diretório de trabalho do GeoMapa (definido em preferências).</p>
+
+        <ul>
+            <li>Memorial</li>
+            <li>Cálculo de Área</li>
+            <li>Planilha de dados cartográficos</li>
+            <li>Planilha de validação de dados do Terra Legal</li>
+        </ul>
+
+        <h2>Apêndice 1 - Entendendo a estrutura de diretórios do GeoMapa</h2>
+        <h2>Apêndice 2 - Modificando um modelo de relatório</h2>
+        <h2>Apêndice 3 - Lista de Compatibilidade de importação de outros aplicativos</h2>
+        <ul>
+            <li>Trimble Business Center</li>
+            <li>Leica Geo Office</li>
+            <li>Topcon Plus</li>
+            <li>Astech</li>
+        </ul>
+    </body>
+</html>

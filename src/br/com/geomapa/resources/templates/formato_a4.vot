@@ -1,0 +1,95 @@
+rect  legenda  BY_LAYER  CONTINUOUS     0     0   210   297     #borda de fora
+rect  legenda  BY_LAYER  CONTINUOUS    25     7   178   283     #margem interna   
+line  legenda  BY_LAYER  CONTINUOUS   114    15   203    15
+line  legenda  BY_LAYER  CONTINUOUS    25    23   203    23
+line  legenda  BY_LAYER  CONTINUOUS    25    31   203    31
+line  legenda  BY_LAYER  CONTINUOUS    25    39   114    39
+line  legenda  BY_LAYER  CONTINUOUS    25    47   203    47
+line  legenda  BY_LAYER  CONTINUOUS    25    55   114    55
+line  legenda  BY_LAYER  CONTINUOUS    25    63   114    63
+line  legenda  BY_LAYER  CONTINUOUS    25    71   203    71
+line  legenda  BY_LAYER  CONTINUOUS    25    80   203    80
+line  legenda  BY_LAYER  CONTINUOUS    71    31    71    55
+line  legenda  BY_LAYER  CONTINUOUS    84.3  23    84.3  31
+line  legenda  BY_LAYER  CONTINUOUS    86    55    86    63
+line  legenda  BY_LAYER  CONTINUOUS   114     7   114    23
+line  legenda  BY_LAYER  CONTINUOUS   114    31   114    71
+line  legenda  BY_LAYER  CONTINUOUS   143.6  23   143.6  31
+
+text  legenda  BY_LAYER  CONTINUOUS    26    74   "Planta Georreferenciada - $PROPRIEDADE" 2.5  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    69   "Gleba:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    65   "$GLEBA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    61   "Município:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    57   "$MUNICIPIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    53   "Data do Levantamento:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    49   "$DATA_LEVANTAMENTO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    45   "Área (ha)" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    41   "$AREA" 2  0
+
+
+text  legenda  BY_LAYER  CONTINUOUS    26    37   "Sistema Geodésico de Referência:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    33   "$SIS_GEODESICO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    29   "CPF/CNPJ ou Código:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    25   "$PROP_CPF_CNPJ" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    26    21   "Responsável Técnico:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    14   "$RT_NOME" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    12   "$RT_PROFISSAO - $RT_CREA" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    10    "Código do INCRA: $RT_CODIGO_INCRA" 1.3  0
+text  legenda  WHITE     CONTINUOUS    27    8    "ART: $ART_NUMERO" 1.3  0
+
+text  legenda  BY_LAYER  CONTINUOUS    72    53   "Escala:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    73    49   "$ESCALA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    72    45   "Perímetro:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    73    41   "$PERIMETRO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    72    37   "Sistema de Projeção:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    73    33   "$SIS_PROJECAO" 2  0
+
+
+text  legenda  BY_LAYER  CONTINUOUS    87    61   "UF:" 1.3  0
+text  legenda  WHITE     CONTINUOUS    88    57   "$UF" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS    85.3  29   "Título:" 1.3  0
+text  legenda  BY_LAYER  CONTINUOUS   144.6  29   "Matrícula:" 1.3  0
+
+text  legenda  BY_LAYER  CONTINUOUS   115    69   "Planta de Situação:" 1.3  0
+text  legenda  BY_LAYER  CONTINUOUS   115    45   "Convergência Meridiana:" 1.3  0
+text  legenda  WHITE     CONTINUOUS   185    37   "$REF_CONV_MERIDIANA" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   115    21   "Detentor:" 1.3  0
+text  legenda  WHITE     CONTINUOUS   116    17   "$PROPRIETARIO" 2  0
+
+text  legenda  BY_LAYER  CONTINUOUS   115    13   "Visto:" 1.  0
+text  legenda  WHITE     CONTINUOUS   195    8    "$PROPRIEDADE_ID" 2.0  0
+
+text  legenda  BY_LAYER  CONTINUOUS   189.422 286.820 "NQ" 1.5 0.0  0
+
+line  legenda  BY_LAYER  CONTINUOUS   191.850 269.000 190.300 271.500
+line  legenda  BY_LAYER  CONTINUOUS   193.000 257.000 191.000 260.000
+line  legenda  BY_LAYER  CONTINUOUS   191.000 268.000 193.000 257.000
+line  legenda  BY_LAYER  CONTINUOUS   189.000 257.000 191.000 260.000
+line  legenda  BY_LAYER  CONTINUOUS   191.000 268.000 189.000 257.000
+line  legenda  BY_LAYER  CONTINUOUS   191.000 285.000 193.000 273.000
+line  legenda  BY_LAYER  CONTINUOUS   193.000 273.000 191.000 276.000
+line  legenda  BY_LAYER  CONTINUOUS   191.000 285.000 189.000 273.000
+line  legenda  BY_LAYER  CONTINUOUS   190.000 269.000 190.000 272.000
+line  legenda  BY_LAYER  CONTINUOUS   190.000 272.000 190.300 272.000
+line  legenda  BY_LAYER  CONTINUOUS   190.300 272.000 192.000 269.300
+line  legenda  BY_LAYER  CONTINUOUS   192.000 269.300 192.000 272.000
+line  legenda  BY_LAYER  CONTINUOUS   192.000 272.000 192.300 272.000
+line  legenda  BY_LAYER  CONTINUOUS   192.300 272.000 192.300 269.000
+line  legenda  BY_LAYER  CONTINUOUS   190.000 269.000 190.300 269.000
+line  legenda  BY_LAYER  CONTINUOUS   190.300 269.000 190.300 271.500
+line  legenda  BY_LAYER  CONTINUOUS   192.300 269.000 191.850 269.000
+line  legenda  BY_LAYER  CONTINUOUS   191.000 260.000 191.000 285.000
+line  legenda  BY_LAYER  CONTINUOUS   189.000 273.000 191.000 276.000
+
+text  legenda  BY_LAYER  CONTINUOUS   183.000 253.000 "K = $REF_FATOR_ESCALA" 1.5 0.0
+text  legenda  BY_LAYER  CONTINUOUS   186.000 251.000 "MC $MERIDIANO_CENTRAL" 1.5 0.0

@@ -1,0 +1,48 @@
+
+<table:table-column table:style-name="descricao_5f_perimetro.A"/>
+<table:table-column table:style-name="descricao_5f_perimetro.B"/>
+<table:table-column table:style-name="descricao_5f_perimetro.C"/>
+<table:table-column table:style-name="descricao_5f_perimetro.D"/>
+<table:table-column table:style-name="descricao_5f_perimetro.E"/>
+<table:table-column table:style-name="descricao_5f_perimetro.F"/>
+<table:table-column table:style-name="descricao_5f_perimetro.G"/>
+<table:table-column table:style-name="descricao_5f_perimetro.H"/>
+<table:table-row>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">De </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Para </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Distância(m) </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Azimute </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">MC </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.A1" table:number-columns-spanned="2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Coordenadas UTM do vértice “para” </text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+    <table:table-cell table:style-name="descricao_5f_perimetro.H1" table:number-rows-spanned="2" office:value-type="string">
+        <text:p text:style-name="P7"/>
+        <text:p text:style-name="Table_20_Heading">Confrontantes </text:p>
+    </table:table-cell>
+</table:table-row>
+<table:table-row>
+    <table:covered-table-cell/>
+    <table:covered-table-cell/>
+    <table:covered-table-cell/>
+    <table:covered-table-cell/>
+    <table:covered-table-cell/>
+    <table:table-cell table:style-name="descricao_5f_perimetro.F2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Este </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="descricao_5f_perimetro.F2" office:value-type="string">
+        <text:p text:style-name="Table_20_Heading">Norte </text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+</table:table-row>

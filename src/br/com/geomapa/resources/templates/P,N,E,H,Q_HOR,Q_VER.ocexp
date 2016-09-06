@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<ExportDefinitionOData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApplyToAll>true</ApplyToAll>
+  <DefinitionVersion>2</DefinitionVersion>
+  <Enabled>true</Enabled>
+  <Description />
+  <SearchType>delimited</SearchType>
+  <Delimiter>,</Delimiter>
+  <DelimiterType>comma</DelimiterType>
+  <DataServiceResourceSetName>PointView1s</DataServiceResourceSetName>
+  <DataServiceResourceName>PointView1</DataServiceResourceName>
+  <Extension>.csv</Extension>
+  <Fields>
+    <Fields>
+      <DisplayUnit>0</DisplayUnit>
+      <ParentODataInvariantName />
+      <CombinedLocalizedName />
+      <ODataFieldInvariantName>Name</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>0</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+    <Fields>
+      <DisplayUnit>14</DisplayUnit>
+      <ParentODataInvariantName />
+      <CombinedLocalizedName />
+      <ODataFieldInvariantName>Easting</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>1</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+    <Fields>
+      <DisplayUnit>14</DisplayUnit>
+      <ParentODataInvariantName />
+      <CombinedLocalizedName />
+      <ODataFieldInvariantName>Northing</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>2</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+    <Fields>
+      <DisplayUnit>14</DisplayUnit>
+      <ParentODataInvariantName />
+      <CombinedLocalizedName />
+      <ODataFieldInvariantName>Elevation</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>3</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+    <Fields>
+      <DisplayUnit>14</DisplayUnit>
+      <ParentODataInvariantName>VectorInfo</ParentODataInvariantName>
+      <CombinedLocalizedName>Observação do vetor GNSS.Precisão H.</CombinedLocalizedName>
+      <ODataFieldInvariantName>VectorHorizontalPrecision</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>5</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+    <Fields>
+      <DisplayUnit>14</DisplayUnit>
+      <ParentODataInvariantName>VectorInfo</ParentODataInvariantName>
+      <CombinedLocalizedName>Observação do vetor GNSS.Precisão V.</CombinedLocalizedName>
+      <ODataFieldInvariantName>VectorVerticalPrecision</ODataFieldInvariantName>
+      <StartingPointId />
+      <UndefinedElevation />
+      <StartText />
+      <EndText />
+      <Index>6</Index>
+      <PositionStart>1</PositionStart>
+      <PositionEnd>1</PositionEnd>
+    </Fields>
+  </Fields>
+  <TextQualifier />
+  <DecimalSeparator>.</DecimalSeparator>
+  <Encoding>ASCII</Encoding>
+  <IncludeHeader>false</IncludeHeader>
+</ExportDefinitionOData>

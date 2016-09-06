@@ -1,0 +1,81 @@
+combobox editavel pra escala
+criar formato a1
+salvar limites e confrontantes
+testar se poligonal esta no sentido horario (se o primeiro azimute for >=90 && <= 180 estah ou ultimo for >=0 && <=90 eh sentido horario, o contrario eh antihorario)
+o confrontante da divisa M1->M2 é a poligonal a qual pertence a divisa M2->M1
+tela de limites e confrontacoes (só faltam os campos para o caso de estrada[nome, de, para] e agua corrente[jusante, montante])
+LineDivison passa a ser Singleton
+instalar relatorio personalizado do TBC
+azimutes e distancias (planta geral)
+criar grade de coordenadas
+criar formato a4
+criar label de coordenada de um ponto
+colocar mensagem de erro na atualizacao qdo nao ter permissao de escrita
+papel deixa de ser opcao no painel da poligonal e passa a ser objeto simples para adicao no mapa
+corrigir zoom (verificar proporção de largura e altura quando for alterar a view)
+resolver problema do meridiano central (não permitir importar dados sem definir um meridiano central, permitir mudar meridiano central?)
+implementar renderizacao vetorial de fonte
+fazer metodos de selecao em VisualObject - falta selecao em objetos compostos
+projecao do ponto nao esta capturando altitude
+projecao do ponto soh recebe azimute decimal
+quadro de area e perimetro no mapa
+implementar funcao de mover
+criar barra de ferramentas de desenho
+definir poligonal deve perguntar qual eh a poligonal a ser definida
+objetos geodesicos passam a ter propriedades visuais ao invés de ter outros objetos de representação visual
+Visualobjects passa a ser colecao de cada polygonal
+organizar o que vai entrar/sair de metadados do projeto/parcela (lembrar de passar rbmc para o projeto)
+implementar remoção de parcela
+bug de acesso concorrente na sourcelistitem
+na importacao de parcela via calculo de area, verificar a situacao que nao houver o ponto e ele for virtual
+colocar no manual como apendice-> para corrigir a formatacao de texto/numero: substituir .* por & (usando expressão regular)
+criar offset
+melhorar zoom
+melhorar definicao de poligonal
+tela de abrir projetos
+novo projeto
+fechar projeto
+tela de opcoes
+fazer backup de arquivos qdo salvar
+gerenciamento de responsaveis tecnicos (para incluir nos memoriais e mapas)
+colocar opcoes de zona utm principal e hemisferio
+adicionar pontos manualmente
+editar ponto
+inserir ponto via projecao (azimute)
+em dados cartográficos (colocar combobox com opcoes de incra ou terra legal)
+em memorial (colocar combobox com opcoes de incra ou terra legal)
+em memorial (colocar checboxes para: aspasMarco, pontoNegrito, coordNegrito, intermediarioNegrito)
+editor rinex
+importar rinex
+importar parcelas do calculo de area
+adicionar em opcoes visualizar benchmark opengl
+reorganizar estrutura de diretorios (criar diretorio de projetos)
+classe de controle de licenca/trial
+criar tela de sobre
+criar tela de registro do software
+remover botão de atualizar da tela de abrir projeto
+validar cpf/cnpj
+inserir campo de entrada das bases rbmc utilizadas
+funcoes de exportar planilhas e memoriais
+ - exportar memorial - OK
+   * terra legal - OK
+   * incra - OK
+ - exportar dados cartograficos - OK
+   * terra legal - OK
+   * incra - OK
+ - exportar calculo de area = OK
+ - exportar planilha de validacao do terra legal - parcialmente ok
+exportar visualobjects para autocad
+--------------------------------------------------------------------------------
+--Projetos futuros
+criar painel de propriedades do lado direito
+em memorial (colocar combobox para selecionar modelo: baixa prioridade)
+cada região do aplicativo passa a ser uma classe (esquerda, centro, topo, rodapé)
+confrontantes automatico
+-----------------------
+para reinstalar o aplicativo, fazer um software que realize o backup do registro com informacoes da maquina, armazene as informacoes online, para
+ em seguida, apos a reinstalacao do SO, recuperar os dados de registro.
+permitir apenas 1 reinstalacao por semana
+pegar alguma informacao da maquina para saber se a reinstalacao esta ocorrendo naquela mesma maquina
+
+não fazer backup da licença, ao invés disso fazer o upload para a nuvem e excluir a licença da máquina local
